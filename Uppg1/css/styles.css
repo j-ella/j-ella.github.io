@@ -1,0 +1,12 @@
+
+.divImage{
+    display: inline-block;
+    text-align: center;
+}
+.divList{
+    display: inline-block;
+    text-align: center;
+    vertical-align:top;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
