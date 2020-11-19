@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap'); *
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .background {
+    background-color: #202020;
+  }
+
+  header {
+	background-color: #202020;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Big Shoulders Text', cursive; 
+}
+
+nav {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  position: absolute; 
+  z-index: 100; 
+  left: 0; 
+  width: 100%; 
+ 
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #202020;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	padding: 12px 12px 13px 12px;
+	color: #fccf95;
+	text-decoration: none;
+	font-size: 25px;  }
+
+nav li a:hover {
+	background-color: #fccf95;
+	color: #F7F6F3;
+}
+
+  article.logo{
+	text-align: center;
+	background-color: #202020;
+	color: #fccf95;
+	padding: 15px;
+	font-size: 50px;
+	font-family: 'Big Shoulders Text', cursive; 
+}
+  
+  
+  article.menu {
+      margin-top: 50px;
+	  margin-bottom: 300px;
+      background-color: #202020;
+      color: #ffffff;
+      text-align: center;
+	  padding: 15px;
+      font-family: 'Big Shoulders Text', cursive; 
+  }
+  
+  .menu h1{
+	  font-size: 30px;
+	  font-family: 'Big Shoulders Text', cursive;
+  }
+
+  .menu p{
+	font-size: 20px;
+	font-family: 'Big Shoulders Text', cursive;
+}
+
+  table {
+	width:100%;
+  }
+  table, th, td {
+	border-top: 3px solid #fccf95;
+	border-bottom: 3px solid #fccf95;
+	border-collapse: collapse;
+  }
+  th, td {
+	padding: 15px;
+	text-align: left;
+	font-size: 20px;
+  }
+
+  footer {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      background-color: #202020;
+      height: auto;
+  }
+  
+  footer ul {
+      color: #fccf95;
+      margin: 10px 50px;
+      text-align: center;
+      line-height: 1.2;
+      list-style: none;
+	  font-family: 'Big Shoulders Text';
+	  font-size: 25px;
+  }
+
+  footer li h3 {
+      margin-bottom: 6px;
+  }
+  
